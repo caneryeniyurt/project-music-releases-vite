@@ -22,13 +22,13 @@ const App = () => {
   const renderAlbums = () =>
 
     albums.map(
-      ({ id, name, external_urls,artists}) => (
+      ({ id, name, external_urls,artists, images}) => (
         <Album
           key={id}
           albumname={name}
           albumlink={external_urls["spotify"]}
           artistinfo={artists}
-
+          coverimage={images}
         />
         
       )

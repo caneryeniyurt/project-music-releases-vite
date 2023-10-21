@@ -1,10 +1,10 @@
 export const Header = () => {
     let imageObject = {
-      imgUrl: "./main-design.png",
-      imgAlt: "An Image of the Solar System",
+
+      imgAlt: "",
     };
   
-    const header = "Planets go here";
+    const header = "New Albums & Singles";
   
     return (
       <header>

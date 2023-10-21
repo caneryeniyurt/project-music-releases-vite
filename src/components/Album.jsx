@@ -1,12 +1,14 @@
 import { AlbumName } from "./AlbumName";
 import { ArtistName } from "./ArtistName";
+import { CoverImage } from "./CoverImage";
 // import { Atmosphere } from "../Atmosphere";
 // import { Description } from "../Description";
 
 export const Album = ({
   albumname,
   albumlink,
-  artistinfo
+  artistinfo,
+  coverimage
 
 }) => {
     
@@ -15,7 +17,8 @@ export const Album = ({
       <AlbumName albumname={albumname} 
                  albumlink={albumlink}/>
 
-        <ArtistName artistinfo={artistinfo} />
+      <ArtistName artistinfo={artistinfo} />
+      <CoverImage coverimage={coverimage}  />
     </div>
   );
 };
