@@ -4,8 +4,6 @@ import { CoverImage } from "./CoverImage";
 import {Container, Row, Col} from 'react-bootstrap'  
 
 
-import "../index.css";
-
 export const Album = ({
   coverimage,
   albumname,
