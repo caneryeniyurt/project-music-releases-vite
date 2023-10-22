@@ -5,8 +5,6 @@ import {Container, Row, Col} from 'react-bootstrap'
 
 
 import "../index.css";
-// import { Atmosphere } from "../Atmosphere";
-// import { Description } from "../Description";
 
 export const Album = ({
   coverimage,
@@ -14,12 +12,11 @@ export const Album = ({
   albumlink,
   artistinfo
   
-
 }) => {
     
   return (    
 
-       <Col col-12 col-md-4 col-l-2> 
+       <Col col-12 col-md-4 col-lg-2> 
         <div>
         
         <CoverImage coverimage={coverimage}/>
@@ -31,13 +28,6 @@ export const Album = ({
           <ArtistName artistinfo={artistinfo}/>
         </p> </div>
         </div>
-     </Col>
-
-   
+     </Col>  
   );
 };
-
-// Album.defaultProps = {
-//   name: "Name is missing",
-//   distance: "Not available",
-// };
