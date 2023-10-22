@@ -9,9 +9,10 @@ body {
 }
 
 .albumlink{
+  font-size: 14px;
   text-decoration:none;
   font-family: 'Helvetica';
-  color: white;
+  color: #ffffff;
   font-weight: 600;
 }
 /* mouse over link */
@@ -21,9 +22,10 @@ body {
 }
 .artistlink{
   text-decoration:none;
-  color: rgba(255, 255, 255, 0.397);
+  color: #a0a0a0;
   font-weight: 600;
   font-family: 'Helvetica';
+  font-size: 14px;
 }
 /* mouse over link */
 .artistlink:hover {
