@@ -1,3 +1,4 @@
+
 export const Header = () => {
     let imageObject = {
 
@@ -9,7 +10,7 @@ export const Header = () => {
     return (
       <header>
         <img src={imageObject.imgUrl} alt={imageObject.imgAlt} />
-        <p>{header}</p>
+        <p style={{ color: 'white', textAlign:"center" }} >{header}</p>
       </header>
     );
   };

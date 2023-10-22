@@ -1,22 +1,20 @@
 
 
 body {
-  background-color: black;
-  color: #faf9f9;
+  background-color: black !important;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
+  
+
 .albumtext {
   color: white;
-
 }
 
 .artisttext {
   color: white;
-
 }
 .albumlink{
   color: white;
@@ -30,7 +28,13 @@ body {
   color: rgba(255, 255, 255, 0.397);
   font-weight: 600;
 }
-
+/* mouse over link */
 .artistlink:hover {
   text-decoration: underline;
+}
+
+header{
+
+  font-weight: bold;
+  color: white !important;
 }
