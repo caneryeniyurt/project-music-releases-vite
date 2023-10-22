@@ -6,7 +6,7 @@ export const ArtistName = ({artistinfo}) => {
           {artistinfo.map((object,id) =>(
           <ul key={id}>
           {" "}
-          <li key={id}><Link to={object.external_urls["spotify"]} target="_blank" >{object.name} </Link></li>
+          <li key={id}><Link to={object.external_urls["spotify"]} target="_blank" className="artistlink" >{object.name} </Link></li>
         </ul>
             
           ))}

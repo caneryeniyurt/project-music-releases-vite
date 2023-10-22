@@ -2,6 +2,9 @@ import { Header } from "./components/Header";
 import { Album } from "./components/Album";
 import data from "./data.json";
 import { BrowserRouter } from 'react-router-dom'
+import "./index.css";
+
+
 
 const App = () => {
   const albums = data.albums.items;
@@ -25,10 +28,11 @@ const App = () => {
       ({ id, name, external_urls,artists, images}) => (
         <Album
           key={id}
+          coverimage={images}
           albumname={name}
           albumlink={external_urls["spotify"]}
           artistinfo={artists}
-          coverimage={images}
+
         />
         
       )
@@ -39,7 +43,8 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <section className="albumOuter">{renderContent}</section>
+      <div className="row">{renderContent}</div>
+      {/* <section className="albumOuter">{renderContent}</section> */}
     </div>
   );
 };
