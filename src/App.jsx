@@ -4,7 +4,6 @@ import data from "./data.json";
 import { BrowserRouter } from 'react-router-dom';
 import {Container , Row, Col} from 'react-bootstrap';
 
-import "./index.css";
 
 const App = () => {
   const albums = data.albums.items;
@@ -19,9 +18,7 @@ const App = () => {
           albumname={name}
           albumlink={external_urls["spotify"]}
           artistinfo={artists}
-
         />
-        
       )
     );
 
