@@ -18,13 +18,13 @@ export const Album = ({
         <div>
         
         <CoverImage coverimage={coverimage}/>
-        <div> <p className="albumtext"> 
+        <div style={{marginTop:20}}>     
           <AlbumName albumname={albumname} 
                       albumlink={albumlink}/> 
-        </p> </div>
-        <div> <p className="artisttext">
+        </div>
+        <div style={{marginBottom:40}}> 
           <ArtistName artistinfo={artistinfo}/>
-        </p> </div>
+        </div>
         </div>
      </Col>  
   );
