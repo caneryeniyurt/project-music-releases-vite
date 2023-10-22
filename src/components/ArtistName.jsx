@@ -3,11 +3,12 @@ export const ArtistName = ({artistinfo}) => {
 
     return (
         <div>
-          {artistinfo.map((object,id) =>(
-          <ul key={id}>
-          {" "}
-          <li key={id}><Link to={object.external_urls["spotify"]} target="_blank" className="artistlink" >{object.name} </Link></li>
-        </ul>
+          {artistinfo.map((object,id) =>(     
+            <span style={{color:"grey"}} key={id}>
+            {id>0 && " , "}
+            <Link to={object.external_urls["spotify"]} target="_blank" className="artistlink" >{object.name} </Link>      
+            </span>
+
             
           ))}
         </div>
