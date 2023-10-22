@@ -3,6 +3,7 @@ import { Album } from "./components/Album";
 import data from "./data.json";
 import { BrowserRouter } from 'react-router-dom';
 import {Container , Row, Col} from 'react-bootstrap';
+import "./index.css";
 
 
 const App = () => {

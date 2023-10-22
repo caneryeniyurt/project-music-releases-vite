@@ -9,19 +9,23 @@ body {
 }
 
 .albumlink{
+  text-decoration:none;
   color: white;
   font-weight: 600;
 }
 /* mouse over link */
 .albumlink:hover {
   text-decoration: underline;
+  color: white;
 }
 .artistlink{
+  text-decoration:none;
   color: rgba(255, 255, 255, 0.397);
   font-weight: 600;
 }
 /* mouse over link */
 .artistlink:hover {
   text-decoration: underline;
+  color: rgba(255, 255, 255, 0.397);
 }
 
